@@ -1,0 +1,16 @@
+
+# ==================== INPUT ====================
+TAXON_FILTER_PATH: dataset/model_id_map.csv #
+IMAGE_REF: dataset/ref_img.png #
+DATASET_PATH: 
+  - "dataset/atlas_data/BRG"  # 
+  - "dataset/atlas_data/IDF"  # 
+  - "dataset/atlas_data/RA"  # 
+DATASET_DUST_PATH: "dataset/debris"  # 
+
+# ==================== OUTPUT ====================
+SAVE_PATH: "ouput"  # 
+
+# ==================== PARAM ====================
+TOTAL_N_IMAGES: 20  # 
+PERCENTAGE_VAL: 0.1  # 
