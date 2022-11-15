@@ -20,13 +20,12 @@ Check the parameters in var.yaml
 
 ## implementation details
 
-Default variables are defined in : *diatom_codes/**utils/global_variables.py*** You can configure the variables in yaml files by adding these options : **--var ../var.yaml**. **var.yaml** is read by the python file *diatom_codes/synthetic_data_generator/**variables.py***. All the default global variables are kept, but you can modify the variables in a yaml file called by the option **--var** after *python dataset_generator_multithread.py*
-
+Default variables are defined in : *diatom_codes/**utils/global_variables.py*** You can configure the variables in yaml files by adding these options : **--var ../var.yaml**. **var.yaml** is read by the python file *diatom_codes/synthetic_data_generator/**variables.py***.
 The **var.yaml** configure the **INPUT** variables : 
-- TAXON_FILTER_PATH: *../../../dataset/model_id_map.csv*: TAXON_FILTER_PATH is a csv file associating taxon and id : taxon,id
-- DATASET_PATH: *../../../dataset/*:  DATASET_PATH **is a list of** folders where directory contain images of diatom. The name of each directory define the taxon of diatoms image inside 
-- DATASET_DUST_PATH: *"../../synthetic_data/debris"*  : folder where directory contain images of debris
-- IMAGE_REF: *../../synthetic_data/atlas/ref_img.png* # image of reference for synthetic image creation
+- TAXON_FILTER_PATH: */dataset/model_id_map.csv*: TAXON_FILTER_PATH is a csv file associating taxon and id : taxon,id
+- DATASET_PATH: */dataset/*:  DATASET_PATH **is a list of** folders where directory contain images of diatom. The name of each directory define the taxon of diatoms image inside 
+- DATASET_DUST_PATH: *"synthetic_data/debris"*  : folder where directory contain images of debris
+- IMAGE_REF: *synthetic_data/atlas/ref_img.png* # image of reference for synthetic image creation
 
 The **var.yaml** configure the **OUTPUT** variables : 
 SAVE_PATH: *"ouput"* : output dir for results
