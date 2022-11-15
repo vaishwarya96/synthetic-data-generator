@@ -27,6 +27,8 @@ The **var.yaml** configure the **INPUT** variables :
 - DATASET_DUST_PATH: *"synthetic_data/debris"*  : folder where directory contain images of debris
 - IMAGE_REF: *synthetic_data/atlas/ref_img.png* # image of reference for synthetic image creation
 
+Examples of files for TAXON_FILTER_PATH and IMAGE_REF are given in ```example_data/ ```
+
 The **var.yaml** configure the **OUTPUT** variables : 
 SAVE_PATH: *"ouput"* : output dir for results
 
