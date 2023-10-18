@@ -1,3 +1,5 @@
+Code for the paper "Usefulness of synthetic datasets for diatom automatic detection using a deep-learning approach" publsihed in Engineering Applications of Artificial Intelligence.
+
 # Synthetic dataset generator
 
 Contains the code to generate synthetic slide images. 
@@ -46,6 +48,22 @@ The output is a train and val folder. In these folders the following are saved:
 2. annotations/ - The labels for horizontal bonding box detection in xml format 
 3. annotations1/ - Labels for rotated bounding box detection 
 4. annotations2/ - Labels for horizontal bounding box in YOLO format
+
+If you use this code please cite the following paper:
+
+Aishwarya Venkataramanan, Pierre Faure-Giovagnoli, Cyril Regan, David Heudre, C´ecile Figus, Philippe Usseglio-Polatera, Cedric Pradalier, and Martin Laviale. Usefulness of synthetic datasets for diatom automatic detection using a deep-learning approach. Engineering Applications of Artificial Intelligence, 117:105594, 2023
+
+```
+@article{venkataramanan2023usefulness,
+  title={Usefulness of synthetic datasets for diatom automatic detection using a deep-learning approach},
+  author={Venkataramanan, Aishwarya and Faure-Giovagnoli, Pierre and Regan, Cyril and Heudre, David and Figus, C{\'e}cile and Usseglio-Polatera, Philippe and Pradalier, Cedric and Laviale, Martin},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={117},
+  pages={105594},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
 
 
